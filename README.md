@@ -1,4 +1,4 @@
-# 📈 Professional Stock Trading Platform
+# 📈 Beginner Stock Trading Platform
 
 A desktop-based stock trading simulation platform built with **JavaFX**.  
 The application provides a modern dashboard interface for visualizing and interacting with trading-related features.
@@ -28,7 +28,7 @@ The application provides a modern dashboard interface for visualizing and intera
 ---
 
 ## 📂 Project Structure
-
+```
 stock-trading-gui
 │
 ├── pom.xml
@@ -44,6 +44,7 @@ stock-trading-gui
 │ │
 │ └── resources
 │ └── style
+```
 
 ---
 
@@ -58,6 +59,7 @@ stock-trading-gui
 scene.getStylesheets().add(
     getClass().getResource("/styles.css").toExternalForm()
 );
+```
 ---
 
 ## 🛠️ Requirements
