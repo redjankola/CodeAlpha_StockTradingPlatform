@@ -34,25 +34,30 @@ stock-trading-gui
 ├── pom.xml
 │
 ├── src
-│   └── main
-│       ├── java
-│       │   ├── app
-│       │   ├── controller
-│       │   ├── model
-│       │   ├── service
-│       │   └── view
-│       │
-│       └── resources.style
-│           └── css
+│ └── main
+│ ├── java
+│ │ ├── app
+│ │ ├── controller
+│ │ ├── model
+│ │ ├── service
+│ │ └── view
+│ │
+│ └── resources
+│ └── style
 
 ---
 
-## 🎨Styling (Optional)
-- You can enable CSS styling by uncommenting the following lines in MainApp.java:
-  scene.getStylesheets().add(
-    getClass().getResource("/styles.css").toExternalForm()
-  );
 
+---
+
+## 🎨 Styling (Optional)
+
+- You can enable CSS styling by uncommenting the following lines in `MainApp.java`:
+
+```java
+scene.getStylesheets().add(
+    getClass().getResource("/styles.css").toExternalForm()
+);
 ---
 
 ## 🛠️ Requirements
